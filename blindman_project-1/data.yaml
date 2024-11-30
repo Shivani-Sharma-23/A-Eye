@@ -1,0 +1,13 @@
+train: "C:/Users/shiva/Downloads/Blindman_project/final/Doors-and-walls-object-detection-1/blindman_project-1/train/images"
+val: "C:/Users/shiva/Downloads/Blindman_project/final/Doors-and-walls-object-detection-1/blindman_project-1/valid/images"
+test: "C:/Users/shiva/Downloads/Blindman_project/final/Doors-and-walls-object-detection-1/blindman_project-1/test/images"
+
+nc: 5
+names: ['door', 'floor', 'furniture', 'moving_object', 'wall']
+
+roboflow:
+  workspace: cornleafdiseasedetection
+  project: blindman_project
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cornleafdiseasedetection/blindman_project/dataset/1
